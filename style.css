@@ -1,9 +1,8 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-image: url(images/background2.jpg);
-  background-repeat: repeat;
-  background-size: 180%;
+  background-size: 100%;
   background-position: center;
 }
 
@@ -57,7 +56,7 @@ footer {
 }
 
 footer a {
-  color: aliceblue;
+  color: white;
   align-items: center;
   padding: 20px;
   font-size: large;
@@ -67,4 +66,18 @@ footer a:hover {
   color: #8b0000;
   text-decoration: #8b0000;
   transition-duration: 1s;
+}
+
+@media screen and (max-width: 500px) {
+  .topnav a{
+    display: block;
+    text-align: left;
+  }
+  .logo {
+    width: 100px;
+  }
+
+  hr {
+    margin: 100px auto;
+  }
 }

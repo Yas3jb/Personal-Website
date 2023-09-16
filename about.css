@@ -8,12 +8,13 @@ h2 {
   color: white;
   margin: 30px 50px;
   letter-spacing: 2px;
+  font-weight: 500;
 }
 
 h2::first-letter {
   color: #8b0000;
   font-size: 50px;
-  text-shadow: white 2px 2px;
+  text-shadow: white 1px 1px;
 }
 
 p {
@@ -22,7 +23,6 @@ p {
 }
 span {
   color: #8b0000;
-  text-shadow: white 3px 3px 3px;
 }
 
 section {
@@ -53,4 +53,37 @@ section {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0 50px 0 50px;
+    
+
+  }  
+  
+  section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    margin: 20% 0 0 0;
+    height: 100%;
+}
+
+.interest-img {
+  display: flex;
+  width: 200px;
+  height: 150px;
+  margin: 250px 0 0 30%;
+  
+}
 }
