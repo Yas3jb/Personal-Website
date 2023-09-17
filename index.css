@@ -1,0 +1,155 @@
+h1 {
+  color: #0a0a0a;
+  font-family: 'Anton', sans-serif;;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: 100px auto;
+  padding: 70px;
+}
+
+h1::first-letter {
+  font-size: 70px;
+  color: #6f7c4f;
+  text-shadow: #FAF8F1 2px 2px;
+}
+
+.name {
+  margin: 0 auto;
+}
+
+p {
+  display: flex;
+  color: #0a0a0a;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  justify-content: center;
+}
+
+h2 {
+  border: #313624 6px;
+  border-style: double solid;
+  color: #0a0a0a;
+  width: 50px auto;
+  margin: 100px auto;
+  padding: 50px 10px 50px 30px;
+  font-size: 25px;
+  margin: 10px 5%;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  color: #0a0a0a;
+  font-size: 30px;
+  margin: 5% auto 10% auto;
+  padding-bottom: 100px;
+}
+
+.profile-img {
+  border-radius: 50%; 
+  margin: 50px auto;
+  display: block;
+  margin-bottom: 20px;
+  border: #313624 6px;
+  border-style: double solid;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 400px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: #FAF8F1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+}
+
+.btn {
+  background-color: #313624;
+  border: none;
+  color: #0a0a0a;
+  font-weight: 500;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  position: absolute;
+  margin: 10% 46.5% 14% 46.5%;
+  width: 100px;
+  height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .profile-img {
+    border-radius: 50%; 
+    margin: 50px auto;
+    display: block;
+    margin-bottom: 20px;
+    border: #313624 6px;
+    border-style: double solid;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
+
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    margin: -20px auto;
+}
+
+h1 {
+  font-size: 25px;
+}
+h1::first-letter {
+  font-size: 50px;
+  color: #6f7c4f;
+  text-shadow: #FAF8F1 2px 2px;
+  margin: 100px auto;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 15px;
+}
+
+h3 {
+  position: relative;
+  color: #0a0a0a;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 100px auto;
+  width: 100%;
+}
+
+.btn{
+  font-size: 13px;
+  margin: 50px 0 0 40%;
+}
+}
