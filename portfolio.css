@@ -43,7 +43,8 @@ img{
 }
 
 
-.links, i {
+.links {
+    text-decoration: none;
     color: #0a0a0a;
     display: flex;
     justify-content: space-evenly;
@@ -51,11 +52,6 @@ img{
     
 }
 
-i:hover {
-    color: white;
-    text-decoration: white;
-    transition-duration: 1s;
-}
 
 @media screen and (max-width: 500px) {
     h1 {
