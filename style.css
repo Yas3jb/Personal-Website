@@ -91,6 +91,15 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
+  body {
+  background-image: url(/Personal-Website/images/bg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  }
+  
   .topnav a{
   display: inline-block;
   float: none;
