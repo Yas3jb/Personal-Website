@@ -114,4 +114,10 @@ footer a:hover {
   hr {
     margin: 100px auto;
   }
+
+  footer a {
+    font-size: 18px;
+    margin: 0 30px;
+    padding: 10px;
+  }
 }
