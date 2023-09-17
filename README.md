@@ -2,7 +2,7 @@
 Welcome to my personal website! This README file will provide you with an overview of the content of this website.
 
 ## Table of Contents:
-### Home ### About ### Portfolio
+### Home  About Portfolio
 
 ## Home
 The [Home](https://yas3jb.github.io/Personal-Website/index.html) page serves as the landing page for the website. It provides a brief introduction and navigation links to the About and Portfolio sections.
