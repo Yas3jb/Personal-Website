@@ -9,8 +9,6 @@ body {
   background-position: center;
 }
 
-
-
 header {
   display: flex;
   justify-content: space-between;
@@ -41,7 +39,6 @@ nav a {
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-  
 }
 
 nav a:hover {
@@ -81,7 +78,6 @@ footer a {
   font-size: 30px;
   text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
-
 }
 
 footer a:hover {
@@ -91,16 +87,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  body {
-  background-image: url(/Personal-Website/images/bg.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: center;
-  }
-  
-  .topnav a{
+  .topnav a {
   display: inline-block;
   float: none;
   width: 100%;
@@ -116,6 +103,7 @@ footer a:hover {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
+  
   .logo {
     width: 100px;
   }

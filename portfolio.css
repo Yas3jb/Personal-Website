@@ -5,8 +5,6 @@ h1 {
     text-decoration: underline #313624;
     text-underline-offset: 10px;
     letter-spacing: 1px;
-    
-
 }
 
 h2 {
@@ -33,15 +31,12 @@ section {
     border-radius: 10px;
     text-align: center;
     font-size: 20px;
-    
-    
 }
 
 img{
     width: 400px;
     height: 300px;
 }
-
 
 .links {
     text-decoration: none;
@@ -60,26 +55,28 @@ img{
 
 
 @media screen and (max-width: 500px) {
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 15px;
-        text-align: left;
-    }
-    section {
-        margin: 10px 0 0 25px;
-        width: 80%;
-        height: 100%;
-    }
-    img{
-        width: 300px;
-        height: 200px;
-    }
     
-    
+h1 {
+ font-size: 25px;
+}
+
+h2 {
+ font-size: 20px;
+}
+
+p {
+ font-size: 15px;
+ text-align: left;
+}
+section {
+ margin: 10px 0 0 25px;
+ width: 80%;
+ height: 100%;
+}
+
+img {
+ width: 300px;
+ height: 200px;
+}
 }
 
