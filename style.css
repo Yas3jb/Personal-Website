@@ -81,8 +81,8 @@ footer a {
 }
 
 footer a:hover {
-  color: white;
-  text-decoration: white;
+  color: #0a0a0a;
+  text-decoration: #0a0a0a;
   transition-duration: 1s;
 }
 
@@ -103,7 +103,7 @@ footer a:hover {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
-  
+
   .logo {
     width: 100px;
   }
