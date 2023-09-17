@@ -7,10 +7,10 @@ Welcome to my personal website! This README file will provide you with an overvi
 ### Portfolio
 
 ## Home
-The [Home](https://yas3jb.github.io/Personal-Website/index.html) page serves as the landing page for the website. It provides a brief introduction and navigation links to the `About` and `Portfolio` sections.
+The [Home](https://yas3jb.github.io/Personal-Website/index.html) page serves as the landing page for the website. It provides a brief introduction and navigation links to the [About](https://yas3jb.github.io/Personal-Website/about.html) and [Portfolio](https://yas3jb.github.io/Personal-Website/portfolio.html) sections.
 
 ## About
-In the `About` section, you'll find information about me. This section provides visitors with information about my personal intersts.
+In the [About](https://yas3jb.github.io/Personal-Website/about.html) section, you'll find information about me. This section provides visitors with information about my personal intersts.
 
 ## Portfolio
-The `Portfolio` section is where I showcase my projects. Each project comes with a detailed description, images, and links to live demos or code repositories.
+The [Portfolio](https://yas3jb.github.io/Personal-Website/portfolio.html) section is where I showcase my projects. Each project comes with a detailed description, images, and links to live demos or code repositories.
