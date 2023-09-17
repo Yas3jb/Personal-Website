@@ -92,11 +92,11 @@ footer a:hover {
 
 @media screen and (max-width: 500px) {
   .topnav a{
-    display: inline-block;
-    float: none;
-    width: 100%;
-    text-align: left;
-    text-decoration: none;
+  display: inline-block;
+  float: none;
+  width: 100%;
+  text-align: left;
+  text-decoration: none;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -113,5 +113,11 @@ footer a:hover {
 
   hr {
     margin: 100px auto;
+  }
+
+  footer a {
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 20px;
   }
 }
