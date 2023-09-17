@@ -52,6 +52,12 @@ img{
     
 }
 
+.links :hover{
+    color: #0a0a0a;
+    text-decoration: #0a0a0a;
+    transition-duration: 0.5s;
+}
+
 
 @media screen and (max-width: 500px) {
     h1 {
