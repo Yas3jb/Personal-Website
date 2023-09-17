@@ -1,28 +1,29 @@
 h1 {
-  color: white;
+  color: #0a0a0a;
   margin: 50px 30px;
   text-align: center;
+  font-family: 'Anton', sans-serif;
 }
 
 h2 {
-  color: white;
+  color: #0a0a0a;
+  font-family: 'Anton', sans-serif;
   margin: 30px 50px;
-  letter-spacing: 2px;
-  font-weight: 500;
+  letter-spacing: 1px;
 }
 
 h2::first-letter {
-  color: #8b0000;
+  color: #6f7c4f;
   font-size: 50px;
   text-shadow: white 1px 1px;
 }
 
 p {
-  color: white;
+  color: #0a0a0a;
   margin: 0 50% 0 50px;
 }
 span {
-  color: #8b0000;
+  color: #313624;
 }
 
 section {
@@ -31,33 +32,19 @@ section {
 }
 
 .interest-img {
-  border: 6px solid white;
+  border: #313624 6px;
   border-style: double solid;
   border-radius: 10px;
   position: absolute;
   width: 300px;
   height: 200px;
   margin: -60px 65%;
-  transition: all 0.2s;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-}
-
-.interest-img:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
 }
 
 @media screen and (max-width: 500px) {
   h1 {
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 1px;
   }
   h2 {
     font-size: 20px;
@@ -83,7 +70,7 @@ section {
   display: flex;
   width: 200px;
   height: 150px;
-  margin: 250px 0 0 30%;
+  margin: 250px 0 0 28%;
   
 }
 }

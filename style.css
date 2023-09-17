@@ -1,16 +1,21 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  background-image: url(images/background2.jpg);
-  background-size: 100%;
+  background-image: url(/Personal-Website/images/bg.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   background-position: center;
 }
+
+
 
 header {
   display: flex;
   justify-content: space-between;
   padding: 30px 5%;
-  background-color: black;
+  background-color: #313624;
 }
 
 .logo {
@@ -27,19 +32,27 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin-left: 20px;
-  color: aliceblue;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  
 }
 
 nav a:hover {
-  color: #8b0000;
-  text-decoration: #8b0000;
+  color: #0a0a0a;
+  text-decoration: #0a0a0a;
   transition-duration: 0.5s;
 }
 
 hr {
   margin: 120px auto;
-  border: dashed #8b0000 2px;
+  border: dashed #313624 2px;
   width: 10%;
 }
 
@@ -52,26 +65,47 @@ footer {
   right: 0;
   background-color: white;
   padding-top: 30px;
-  background-color: black;
+  background-color: #313624;
 }
 
 footer a {
   color: white;
-  align-items: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 40px;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
   padding: 20px;
-  font-size: large;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+
 }
 
 footer a:hover {
-  color: #8b0000;
-  text-decoration: #8b0000;
+  color: white;
+  text-decoration: white;
   transition-duration: 1s;
 }
 
 @media screen and (max-width: 500px) {
   .topnav a{
-    display: block;
+    display: inline-block;
+    float: none;
+    width: 100%;
     text-align: left;
+    text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   }
   .logo {
     width: 100px;

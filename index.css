@@ -1,15 +1,17 @@
 h1 {
-  color: white;
+  color: #0a0a0a;
+  font-family: 'Anton', sans-serif;;
   font-size: 50px;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 2px;
   margin: 100px auto;
   padding: 70px;
 }
 
 h1::first-letter {
   font-size: 70px;
-  color: #8b0000;
-  text-shadow: white 2px 2px;
+  color: #6f7c4f;
+  text-shadow: #FAF8F1 2px 2px;
 }
 
 .name {
@@ -18,7 +20,7 @@ h1::first-letter {
 
 p {
   display: flex;
-  color: white;
+  color: #0a0a0a;
   font-size: 20px;
   font-weight: 400;
   padding: 20px;
@@ -26,9 +28,9 @@ p {
 }
 
 h2 {
-  border: white 6px;
+  border: #313624 6px;
   border-style: double solid;
-  color: white;
+  color: #0a0a0a;
   width: 50px auto;
   margin: 100px auto;
   padding: 50px 10px 50px 30px;
@@ -40,18 +42,23 @@ h2 {
 
 h3 {
   position: relative;
-  color: white;
+  color: #0a0a0a;
   font-size: 30px;
-
   margin: 5% auto 10% auto;
   padding-bottom: 100px;
 }
 
 .profile-img {
+  border-radius: 50%; 
+  margin: 50px auto;
+  display: block;
+  margin-bottom: 20px;
+  border: #313624 6px;
+  border-style: double solid;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   width: 400px;
   height: 400px;
-  margin: 70px auto;
-  padding: 0 50px 0 0;
 }
 
 .intro {
@@ -60,7 +67,7 @@ h3 {
 }
 
 a {
-  color: white;
+  color: #FAF8F1;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
@@ -71,9 +78,16 @@ a {
 }
 
 .btn {
-  background: linear-gradient(45deg, #7d0000, #950000);
-  box-shadow: inset -50px -50px 100px #8a0000, inset 50px 50px 100px #8c0000;
+  background-color: #313624;
+  border: none;
+  color: #0a0a0a;
+  font-weight: 500;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin: 4px 2px;
   cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 100px;
   position: absolute;
   margin: 10% 46.5% 14% 46.5%;
@@ -83,10 +97,16 @@ a {
 
 @media screen and (max-width: 500px) {
   .profile-img {
+    border-radius: 50%; 
+    margin: 50px auto;
+    display: block;
+    margin-bottom: 20px;
+    border: #313624 6px;
+    border-style: double solid;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
     width: 300px;
     height: 300px;
-    margin: 0 auto;
-    padding: 0 0px 100px 0;
 
   }
   .intro {
@@ -97,7 +117,13 @@ a {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
+}
+h1::first-letter {
+  font-size: 50px;
+  color: #6f7c4f;
+  text-shadow: #FAF8F1 2px 2px;
+  margin: 100px auto;
 }
 
 h2 {
@@ -109,7 +135,7 @@ p {
 
 h3 {
   position: relative;
-  color: white;
+  color: #0a0a0a;
   font-size: 20px;
   margin: 0 auto;
 }
@@ -123,9 +149,7 @@ h3 {
 }
 
 .btn{
-  font-size: 15px;
+  font-size: 13px;
   margin: 50px 0 0 40%;
-
 }
- 
 }
