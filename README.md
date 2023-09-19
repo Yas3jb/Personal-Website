@@ -3,10 +3,10 @@ Welcome to my personal website! This README file will provide you with an overvi
 
 
 ## Table of Contents:
-### [Home](https://yas3jb.github.io/Personal-Website/index.html)  
-### [About](https://yas3jb.github.io/Personal-Website/about.html) 
-### [Portfolio](https://yas3jb.github.io/Personal-Website/portfolio.html)
-### [Contact](https://yas3jb.github.io/Personal-Website/contact.html)
+### [Home](https://yasin-b-org.github.io/Personal-Website/index.html)  
+### [About](https://yasin-b-org.github.io/Personal-Website/about.html) 
+### [Portfolio](https://yasin-b-org.github.io/Personal-Website/portfolio.html)
+### [Contact](https://yasin-b-org.github.io/Personal-Website/contact.html)
 
 
 ## Home
