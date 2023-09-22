@@ -1,5 +1,5 @@
 # My Personal Website
-Welcome to my personal website! This README file will provide you with an overview of the content of this website.
+Welcome to my personal website! This README file will provide you with an overview of the content of this website...
 
 
 ## Table of Contents:
